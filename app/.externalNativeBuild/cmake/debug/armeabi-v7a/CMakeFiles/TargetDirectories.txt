@@ -1,0 +1,4 @@
+/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/soundtouch.dir
+/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/jplayer-lib.dir

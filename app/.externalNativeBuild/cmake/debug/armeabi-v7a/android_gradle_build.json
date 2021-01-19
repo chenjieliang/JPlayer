@@ -1,0 +1,443 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/home/zhengyuanlong/soft/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"avcodec-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "avcodec",
+			"buildType" : "debug",
+			"output" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/jniLibs/armeabi-v7a/libavcodec.so",
+			"toolchain" : "13831006385472940325"
+		},
+		"avfilter-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "avfilter",
+			"buildType" : "debug",
+			"output" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/jniLibs/armeabi-v7a/libavfilter.so",
+			"toolchain" : "13831006385472940325"
+		},
+		"avformat-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "avformat",
+			"buildType" : "debug",
+			"output" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/jniLibs/armeabi-v7a/libavformat.so",
+			"toolchain" : "13831006385472940325"
+		},
+		"avutil-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "avutil",
+			"buildType" : "debug",
+			"output" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/jniLibs/armeabi-v7a/libavutil.so",
+			"toolchain" : "13831006385472940325"
+		},
+		"jplayer-lib-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "jplayer-lib",
+			"buildCommand" : "/home/zhengyuanlong/soft/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target jplayer-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/jplayer-lib.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/g711/g711_cq.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/g711/g711a.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/g711/g711u.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/thread/XThread.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/thread/IObserver.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/Xlog.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/XData.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/XParameter.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/demux/IDemux.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/demux/FFDemux.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/decode/IDecode.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/decode/FFDecode.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/decode/G711Decode.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/decode/Capture.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/resample/IResample.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/resample/FFResample.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/audio/IAudioPlay.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/audio/SLAudioPlay.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/video/GLVideoView.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/video/IVideoView.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/opengl/XEGL.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/opengl/XShader.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/opengl/XTexture.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/builder/IPlayerBuilder.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/builder/FFPlayerBuilder.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/IPlayer.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/IPlayerProxy.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/filter/STFilter.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/ts/ITSVideo.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/ts/FFTSVideo.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/ts/ITSAudio.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/ts/FFTSAudio.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/ts/G711TSAudio.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/decode/DecodeInit.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/sccodec/FFCodec.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/sccodec/G711Codec.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/sccodec/SCCodec.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/sccodec/SCCodecParam.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/sccodec/ff/FFAudioEncoder.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/sccodec/ff/FFVideoEncoder.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/sccodec/ff/encode/IEncode.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Djplayer_lib_EXPORTS -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/sccodec/ff/encode/FFEncode.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libjplayer-lib.so",
+			"toolchain" : "13831006385472940325"
+		},
+		"soundtouch-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "soundtouch",
+			"buildCommand" : "/home/zhengyuanlong/soft/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target soundtouch",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot   -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/SoundTouch/sources/AAFilter.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot   -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/SoundTouch/sources/BPMDetect.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot   -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/SoundTouch/sources/cpu_detect_x86.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot   -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/SoundTouch/sources/FIFOSampleBuffer.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot   -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/SoundTouch/sources/FIRFilter.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot   -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/SoundTouch/sources/InterpolateCubic.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot   -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/SoundTouch/sources/InterpolateLinear.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot   -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/SoundTouch/sources/InterpolateShannon.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot   -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/SoundTouch/sources/mmx_optimized.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot   -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/SoundTouch/sources/PeakFinder.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot   -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/SoundTouch/sources/RateTransposer.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot   -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/SoundTouch/sources/SoundTouch.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot   -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/SoundTouch/sources/sse_optimized.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot   -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/SoundTouch/sources/TDStretch.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot   -I../../../../include -I../../../../include/soundtouch -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/cpp/player/SoundTouch/SoundTouchWrapper.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a/libsoundtouch.a",
+			"toolchain" : "13831006385472940325"
+		},
+		"swresample-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "swresample",
+			"buildType" : "debug",
+			"output" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/jniLibs/armeabi-v7a/libswresample.so",
+			"toolchain" : "13831006385472940325"
+		},
+		"swscale-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "swscale",
+			"buildType" : "debug",
+			"output" : "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/jniLibs/armeabi-v7a/libswscale.so",
+			"toolchain" : "13831006385472940325"
+		}
+	},
+	"toolchains" : 
+	{
+		"13831006385472940325" : 
+		{
+			"cCompilerExecutable" : "/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

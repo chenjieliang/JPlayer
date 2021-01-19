@@ -1,0 +1,52 @@
+{
+  "buildFiles": [
+    "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/zhengyuanlong/soft/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "swresample-Debug-armeabi-v7a": {
+      "artifactName": "swresample",
+      "abi": "armeabi-v7a",
+      "output": "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/jniLibs/armeabi-v7a/libswresample.so"
+    },
+    "avfilter-Debug-armeabi-v7a": {
+      "artifactName": "avfilter",
+      "abi": "armeabi-v7a",
+      "output": "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/jniLibs/armeabi-v7a/libavfilter.so"
+    },
+    "jplayer-lib-Debug-armeabi-v7a": {
+      "artifactName": "jplayer-lib",
+      "buildCommand": "/home/zhengyuanlong/soft/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target jplayer-lib",
+      "abi": "armeabi-v7a",
+      "output": "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libjplayer-lib.so"
+    },
+    "avcodec-Debug-armeabi-v7a": {
+      "artifactName": "avcodec",
+      "abi": "armeabi-v7a",
+      "output": "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/jniLibs/armeabi-v7a/libavcodec.so"
+    },
+    "swscale-Debug-armeabi-v7a": {
+      "artifactName": "swscale",
+      "abi": "armeabi-v7a",
+      "output": "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/jniLibs/armeabi-v7a/libswscale.so"
+    },
+    "soundtouch-Debug-armeabi-v7a": {
+      "artifactName": "soundtouch",
+      "buildCommand": "/home/zhengyuanlong/soft/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target soundtouch",
+      "abi": "armeabi-v7a",
+      "output": "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/.externalNativeBuild/cmake/debug/armeabi-v7a/libsoundtouch.a"
+    },
+    "avformat-Debug-armeabi-v7a": {
+      "artifactName": "avformat",
+      "abi": "armeabi-v7a",
+      "output": "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/jniLibs/armeabi-v7a/libavformat.so"
+    },
+    "avutil-Debug-armeabi-v7a": {
+      "artifactName": "avutil",
+      "abi": "armeabi-v7a",
+      "output": "/home/zhengyuanlong/jieliang/projects/Repository/JPlayer/app/src/main/jniLibs/armeabi-v7a/libavutil.so"
+    }
+  }
+}
